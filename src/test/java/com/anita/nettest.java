@@ -14,7 +14,7 @@ public class nettest extends Testcase
 
      public nettest(String name) {
 	     super(name);
-
+     }
 	     public void testSum() {
 		     assertEquals(2,cal.sum(1,1));
 	     }
