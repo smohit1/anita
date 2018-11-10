@@ -6,9 +6,9 @@ public class netconnect
 {
     public static void main( String[] args )
     {
-        int x, y, z
+        int x, y, z;
 
-		System.out.println("Enter two integers number to calculate their sum");
+	System.out.println("Enter two integers number to calculate their sum");
 	Scanner in =new Scanner(System.in);
 
 	x = in.nextInt();
