@@ -2,12 +2,15 @@ package com.anita;
 
 import static org.junit.Assert.assertTrue;
 
+import org.junit.runner.JUnitCore;
+import org.junit.runner.Result;
+import org.junit.runner.notification.Failure;
 import org.junit.Test;
 
 
-import junit.framework.Testcase;
+import org.junit.framework.Test;
 
-public class nettest extends Testcase
+public class netTest extends Test
 {
 	
      Calculator cal=new Calculator();
